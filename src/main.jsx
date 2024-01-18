@@ -1,10 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.scss'
+import App from './App.jsx'
+
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import { WebAppProvider } from '@vkruglikov/react-telegram-web-app'
+
+window.Telegram.WebApp.expand()
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
+	<WebAppProvider
+		options={{
+			smoothButtonsTransition: true,
+		}}
+	>
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
+	</WebAppProvider>
 )

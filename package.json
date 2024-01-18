@@ -10,9 +10,12 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@vkruglikov/react-telegram-web-app": "^2.1.9",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"sass": "^1.70.0"
+		"react-router-dom": "^6.21.2",
+		"sass": "^1.70.0",
+		"vite-plugin-svgr": "^4.2.0"
 	},
 	"devDependencies": {
 		"@types/react": "^18.2.43",
