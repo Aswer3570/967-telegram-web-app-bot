@@ -8,7 +8,7 @@ const DeviceRedirect = ({ children }) => {
 
 	useEffect(() => {
 		// unknown и macos - удалить потом
-		if (webApp.platform !== 'ios' && webApp.platform !== 'android' && webApp.platform !== 'macos' && webApp.platform !== 'unknown') {
+		if (webApp.platform !== 'ios' && webApp.platform !== 'android') {
 			return navigate('/no-support')
 		}
 	}, [])
