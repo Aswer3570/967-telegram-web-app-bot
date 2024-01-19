@@ -18,14 +18,14 @@
 
 		.no-support__title {
 			color: var(--palette-live-white);
-			font-size: 25px;
-			margin: 0 0 14px 0;
+			font-size: 20px;
+			margin: 0 0 10px 0;
 			font-weight: 600;
 		}
 
 		.no-support__description {
 			color: var(--palette-live-white);
-			font-size: 20px;
+			font-size: 15px;
 			margin: 0 0 40px 0;
 			font-weight: 500;
 		}
@@ -37,8 +37,8 @@
 			border-radius: 20px;
 
 			.qr-code__icon {
-				width: 240px;
-				height: 240px;
+				width: 210px;
+				height: 210px;
 				fill: var(--palette-live-white);
 			}
 		}
