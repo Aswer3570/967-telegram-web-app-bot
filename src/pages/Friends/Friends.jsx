@@ -49,36 +49,42 @@ function Friends() {
 					<FriendsBlock
 						avatar="https://cdn1.flamp.ru/f3b30ff2b400d9fe0b30efeb1d632b6c_300_300.jpg"
 						name="Roman Dolmatov"
+						description="+1000 boost for you"
 						link="https://t.me/RomanDolmatov"
 					/>
 
 					<FriendsBlock
 						avatar="https://cdn1.flamp.ru/f3b30ff2b400d9fe0b30efeb1d632b6c_300_300.jpg"
 						name="Roman Dolmatov"
+						description="+1000 boost for you"
 						link="https://t.me/RomanDolmatov"
 					/>
 
 					<FriendsBlock
 						avatar="https://cdn1.flamp.ru/f3b30ff2b400d9fe0b30efeb1d632b6c_300_300.jpg"
 						name="Roman Dolmatov"
+						description="+1000 boost for you"
 						link="https://t.me/RomanDolmatov"
 					/>
 
 					<FriendsBlock
 						avatar="https://cdn1.flamp.ru/f3b30ff2b400d9fe0b30efeb1d632b6c_300_300.jpg"
 						name="Roman Dolmatov"
+						description="+1000 boost for you"
 						link="https://t.me/RomanDolmatov"
 					/>
 
 					<FriendsBlock
 						avatar="https://cdn1.flamp.ru/f3b30ff2b400d9fe0b30efeb1d632b6c_300_300.jpg"
 						name="Roman Dolmatov"
+						description="+1000 boost for you"
 						link="https://t.me/RomanDolmatov"
 					/>
 
 					<FriendsBlock
 						avatar="https://cdn1.flamp.ru/f3b30ff2b400d9fe0b30efeb1d632b6c_300_300.jpg"
 						name="Roman Dolmatov"
+						description="+1000 boost for you"
 						link="https://t.me/RomanDolmatov"
 					/>
 

@@ -18,11 +18,15 @@ const nameInitials = (name) => {
 	}
 }
 
-function FriendsBlock({avatar, name, link}) {
+function FriendsBlock({avatar, name, description, link, onClick}) {
 	const shortName = nameInitials(name)
 
 	return (
-		<Link to={link} className="friends-block__container">
+		<Link
+			to={link}
+			className="friends-block__container"
+			onClick={onClick}
+		>
 			<div className="friends-block__avatar-container">
 				{
 					avatar?.length > 0 ?
@@ -40,7 +44,7 @@ function FriendsBlock({avatar, name, link}) {
 				</p>
 
 				<p className="friends-block__boost-text">
-					+1000 boost for you
+					{ description }
 				</p>
 			</div>
 
