@@ -6,7 +6,7 @@ function BottomSlider({img, title, description, buttonTitle}) {
 	const webApp = useWebApp()
 
 	function test() {
-		webApp.openTelegramLink('/wallet?startattach=wpay_order-orderId__8838532657153')
+		webApp.openTelegramLink('https://t.me./wallet?startattach=wpay_order-orderId__8838532657153')
 	}
 
 	return (
@@ -27,7 +27,7 @@ function BottomSlider({img, title, description, buttonTitle}) {
 				{ description }
 			</p>
 
-			<button className="bottom-slider__button" onClick={test()}>
+			<button className="bottom-slider__button" onClick={() => test()}>
 				{ buttonTitle }
 			</button>
 		</div>
