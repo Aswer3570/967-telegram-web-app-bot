@@ -1,11 +1,12 @@
 .friends-block__container {
-	background-color: var(--palette-live-grey-3);
+	background-color: var(--dark-blue);
 	padding: 11px 11px 11px 11px;
 	border-radius: 10px;
 	display: flex;
 	justify-content: space-between;
 	text-decoration: none;
 	margin: 0 0 11px 0;
+	border: 1px solid var(--darker-blue);
 
 	&:last-child {
 		margin: 0 0 0 0;
@@ -26,8 +27,8 @@
 			align-items: center;
 			justify-content: center;
 			border-radius: 100px;
-			color: var(--palette-live-black-4);
-			background-color: var(--palette-live-yellow);
+			color: var(--charcoal);
+			background-color: var(--yellow);
 			font-size: 17px;
 			font-weight: 800;
 		}
@@ -42,14 +43,14 @@
 
 		.friends-block__name-text {
 			margin: 0 0 6px 0;
-			color: var(--palette-live-white);
+			color: var(--white);
 			font-size: 15px;
 			font-weight: 600;
 		}
 
 		.friends-block__boost-text {
 			margin: 0 0 0 0;
-			color: var(--palette-live-grey-4);
+			color: var(--silver);
 			font-size: 13px;
 			font-weight: 400;
 		}
@@ -61,7 +62,7 @@
 
 		.arrow-icon {
 			width: 18px;
-			fill: var(--palette-live-grey-5);
+			fill: var(--gray);
 			flex-shrink: 0;
 		}
 	}

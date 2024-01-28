@@ -1,0 +1,36 @@
+.friends__invite-container {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--dark-blue);
+	border: 1px solid var(--darker-blue);
+	border-radius: 15px;
+	padding: 11px 11px 11px 11px;
+
+	.friends__invite-button {
+		color: var(--charcoal);
+		background-color: var(--yellow);
+		font-size: 15px;
+		display: flex;
+		outline: none;
+		cursor: pointer;
+		font-weight: 600;
+		border: 0;
+		border-radius: 10px;
+		padding: 17px;
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 15px 0;
+	
+		.link-icon {
+			width: 15px;
+			height: 15px;
+			margin: 0 5px 0 0;
+		}
+	}
+
+	.friends__invite-description {
+		color: var(--light-gray);
+		font-size: 12px;
+		margin: 0 0 0 0;
+	}
+}
