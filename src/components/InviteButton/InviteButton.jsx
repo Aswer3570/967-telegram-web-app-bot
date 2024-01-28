@@ -1,4 +1,4 @@
-import './inviteButton.scss'
+import './InviteButton.scss'
 import LinkIcon from '../../assets/link.png'
 
 function inviteButton({webApp}) {
