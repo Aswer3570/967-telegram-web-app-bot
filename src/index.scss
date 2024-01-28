@@ -3,22 +3,26 @@
 
 // Цветовые переменные
 :root {
-	--palette-live-black: #101010;
-	--palette-live-black-2: #1F1F1F;
-	--palette-live-black-3: #32363A;
-	--palette-live-black-4: #272727;
-	--palette-live-grey: #929292;
-	--palette-live-grey-2: #737373;
-	--palette-live-grey-3: #3F3F3F;
-	--palette-live-grey-4: #B6B6B6;
-	--palette-live-grey-5: #6B6B6B;
-	--palette-live-white: #fff;
-	--palette-live-yellow: #FECE26;
-	--palette-live-orange: #A27E00;
-	--palette-live-yellow-2: #DEB422;
-	--palette-live-yellow-3: #B38C05;
-	--palette-live-red: #EB3F3F;
-	--palette-live-blue: #3B6FBD;
+	--white: #FFFFFF;
+	--dark-blue: #202229;
+	--darker-blue: #2C2E35;
+	--gray: #6B6B6B;
+	--light-gray: #A9ABAD;
+	--yellow: #FECE26;
+	--black: #0F1119;
+	--off-white: #FFF9F9;
+	--medium-gray: #646464;
+	--charcoal: #272727;
+	--dark-charcoal: #2F3138;
+	--steel: #5E5F60;
+	--red: #EB3F3F;
+	--silver: #B6B6B6;
+	--orange: #B38C05;
+	--gold: #DEB422;
+	--almost-black: #1F1F1F;
+	--blue: #3B6FBD;
+	--dark-gray: #3F3F3F;
+	--medium-dark-gray: #737373;
 }
 
 body {
@@ -26,7 +30,7 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: var(--palette-live-black);
+	background-color: var(--black);
 
 	#root {
 		display: flex;

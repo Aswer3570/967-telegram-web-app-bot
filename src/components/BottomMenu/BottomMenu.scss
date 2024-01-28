@@ -5,24 +5,25 @@
 	align-items: center;
 
 	.tap-bot__block {
-		background-color: var(--palette-live-black-2);
+		background-color: var(--dark-blue);
 		padding: 11px 17px 11px 17px;
 		margin: 0 0 0 0;
-		color: var(--palette-live-white);
+		color: var(--white);
 		border-radius: 20px;
 		font-size: 12px;
-		font-weight: 500;
+		font-weight: 600;
 		border: 0;
 		cursor: pointer;
 		outline: none;
+		border: 1px solid var(--darker-blue);
 
 		.tap-bot__toogle {
-			color: var(--palette-live-red);
+			color: var(--red);
 		}
 	}
 
 	.counter__container {
-		color: var(--palette-live-white);
+		color: var(--white);
 		font-size: 22px;
 		margin: 0 0 0 0;
 		font-weight: 600;
@@ -39,18 +40,14 @@
 }
 
 .bottom-menu__container {
-	padding: 11px 11px 11px 11px;
-	background-color: var(--palette-live-black-2);
-	border: 1px solid var(--palette-live-black-3);
-	border-radius: 15px;
 	display: flex;
 	justify-content: space-between;
 
 	.bottom-menu__button {
 		width: 100%;
 		text-decoration: none;
-		color: var(--palette-live-white);
-		background-color: var(--palette-live-grey-3);
+		color: var(--white);
+		background-color: var(--dark-blue);
 		padding: 15px 20px 15px 20px;
 		border-radius: 10px;
 		display: flex;
@@ -58,9 +55,10 @@
 		justify-content: center;
 		font-weight: 600;
 		font-size: 15px;
+		border: 1px solid var(--darker-blue);
 
 		&:last-child {
-			margin: 0 0 0 11px;
+			margin: 0 0 0 20px;
 		}
 
 		.cat-face__icon, .hatching-chick__icon, .rocket__icon {

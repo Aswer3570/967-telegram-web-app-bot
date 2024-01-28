@@ -11,9 +11,7 @@ function Button() {
 	return (
 		<div className="button__container">
 			<button className="button__block" onClick={() => clickButton()}>
-				<div className="button__decoration-block">
-					₿
-				</div>
+				₿
 			</button>
 		</div>
 	)

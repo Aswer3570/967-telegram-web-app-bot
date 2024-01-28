@@ -17,29 +17,28 @@
 		}
 
 		.no-support__title {
-			color: var(--palette-live-white);
+			color: var(--white);
 			font-size: 20px;
 			margin: 0 0 10px 0;
 			font-weight: 600;
 		}
 
 		.no-support__description {
-			color: var(--palette-live-white);
+			color: var(--white);
 			font-size: 15px;
 			margin: 0 0 40px 0;
 			font-weight: 500;
 		}
 
 		.qr-code__container {
-			background-color: var(--palette-live-black-2);
-			padding: 10px;
-			border: 1px solid var(--palette-live-black-3);
+			background-color: var(--dark-blue);
+			border: 1px solid var(--darker-blue);
 			border-radius: 20px;
 
 			.qr-code__icon {
-				width: 210px;
-				height: 210px;
-				fill: var(--palette-live-white);
+				width: 215px;
+				height: 215px;
+				fill: var(--white);
 			}
 		}
 	}

@@ -3,7 +3,7 @@ import SwapIcon from "../../assets/swap.svg?react"
 
 function HashBlock({lastAttempt}) {
 	return (
-		<div>
+		<>
 			<div className="hash__container">
 				<div className="hash__block">
 					<span className="hash__title">
@@ -33,7 +33,7 @@ function HashBlock({lastAttempt}) {
 			<p className="hash__description">
 				The found key will come in the bot&apos;s message
 			</p>
-		</div>
+		</>
 	)
 }
 
