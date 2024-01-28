@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 
 function BottomMenu() {
 	return (
-		<>
+		<div>
 			<div className="tap-bot__container">
 				<button className="tap-bot__block">
 					Tap bot: <span className="tap-bot__toogle">Off</span>
@@ -37,7 +37,7 @@ function BottomMenu() {
 					Boost
 				</Link>
 			</div>
-		</>
+		</div>
 	)
 }
 
