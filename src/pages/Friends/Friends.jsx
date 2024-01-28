@@ -11,7 +11,7 @@ function Friends() {
 	const webApp = useWebApp()
 
 	return (
-		<>
+		<div className="friends">
 			<Header
 				title="My friends"
 				counter="10"
@@ -73,7 +73,7 @@ function Friends() {
 
 				<BackButton onClick={() => navigate('/')} />
 			</div>
-		</>
+		</div>
 	)
 }
 

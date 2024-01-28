@@ -13,7 +13,7 @@ function Boost() {
 	}
 
 	return (
-		<>
+		<div className="boost">
 			<Header
 				title="Get boost"
 				counter="10,000"
@@ -64,7 +64,7 @@ function Boost() {
 			</div>
 
 			<BackButton onClick={() => navigate('/')} />
-		</>
+		</div>
 	)
 }
 

@@ -20,6 +20,7 @@
 		font-size: 125px;
 		font-weight: 600;
 		transform: rotate(10deg);
+		flex-shrink: 0;
 
 		&:active {
 			transform: scale(0.98) rotate(10deg);
