@@ -5,8 +5,8 @@
 	margin: 40px 0 40px 0;
 
 	.button__block {
-		width: 267px;
-		height: 267px;
+		width: 260px;
+		height: 260px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -21,6 +21,8 @@
 		font-weight: 600;
 		transform: rotate(10deg);
 		flex-shrink: 0;
+		box-sizing: border-box;
+		overflow: hidden;
 
 		&:active {
 			transform: scale(0.98) rotate(10deg);
